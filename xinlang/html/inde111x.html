@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+        .fl{
+            float: left;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+ .column{
+    height:282px;
+    width:400px;
+}
+ .column .columnTop{
+    height:36px;
+    background: #f9f9f9;
+    border: 1px solid #dbdee1;
+
+
+}
+.column .columnTop .active{
+    color:#f60;
+    border-top: 3px solid #f60;
+    border-bottom: 3px solid #fff;
+
+}
+.column .columnTop a{
+    display: inline-block;
+    font:16px/32px "微软雅黑";
+    color:#000;
+    width:57px;
+    text-align: center;
+    border-right:1px solid transparent;
+    border-left:1px solid transparent;
+    border-bottom:2px solid transparent;
+    border-top: 3px solid transparent;
+    margin-top: -1px;
+    margin-left: -1px;
+
+}
+.cons{
+    border:1px solid #cacaca;
+    border-top:none;
+
+}
+.cons div{
+    display:none;
+}
+.show{
+    display: block !important;
+}
+.column .columnPic{
+    height: 90px;
+    padding-top:26px;
+    margin-bottom:8px;
+}
+.column .columnPic li{
+    padding-right: 21px;
+}
+.column .columnPic li:last-child{
+    padding-right:0;
+}
+.column .columnPic a{
+    display: inline-block;
+    width: 105px;
+    height:90px;
+    /*position: relative;*/
+    font-size: 0;
+}
+.column .columnPic a img{
+    height: 70px;
+    width:105px;
+}
+.column .columnPic li span{
+    display: inline-block;
+    height:20px;
+    width:100%;
+    font: 12px/20px "宋体";
+    color:#fff;
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+.column .news{
+    height:122px;
+    /*background: #f0a238;*/
+}
+.column .news li{
+    height:26px;
+    position: relative;
+
+}
+.column .news li i{
+    display: inline-block;
+}
+.column .news li .icon1{
+    width:3px;
+    height:3px;
+    background:url("../images/icon.png") no-repeat 0 -297px;
+    position: absolute;
+    top:6px;
+
+}
+.column .news li img{
+    padding-top: 2px;
+    padding-left: 8px;
+}
+    </style>
+</head>
+<body>
+        <section class="column">
+             <div class="columnTop">
+                <a href="#" class = "active">图片</a>
+                <a href="#">专栏</a>
+                <a href="#">热点</a>
+            </div>
+            <div class="cons">
+                <div class="one show">
+                    <ul class="columnPic">
+                    <li class="fl">
+                        <a href="#">
+                            <img src="../images/lg7.jpg">
+                            <span>寿光灾民安全返家</span>
+                        </a>
+                    </li>
+                        <li class="fl">
+                            <a href="#">
+                                <img src="../images/C.jpg">
+                                <span>他上清华一家8口送</span>
+                            </a>
+                        </li>
+                        <li class="fl">
+                            <a href="#">
+                                <img src="../images/n.jpg">
+                                <span>苏炳添破纪录夺冠</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="news">
+                        <li>
+                            <i class="icon1"></i>
+                            <img src="../images/photoNewsLeft2.gif">
+                            <a>白宫降半旗致哀麦凯恩 八一飞行表演队赴俄参演</a>
+                        </li>
+                        <li>
+                            <i class="icon1"></i>
+                            <img src="../images/photoNewsLeft2.gif">
+                            <a>百岁老人四世同堂 千人贺寿 他赊账买彩票中556万</a>
+                        </li>
+                        <li>
+                            <i class="icon1"></i>
+                            <img src="../images/photoNewsLeft2.gif">
+                            <a>女孩拍写真遭摄影师猥亵 少林绝壁现“功夫瑜伽”</a>
+                        </li>
+                        <li>
+                            <i class="icon1"></i>
+                            <img src="../images/photoNewsLeft2.gif">
+                            <a>蔡依林穿烂毛衣秀腹肌 姚晨置身水中宛如出水“芙</a>
+                        </li>
+                    </ul>
+                </div>
+                 <div class="two">
+                    <ul class="columnPic">
+                    <li class="fl">
+                        <a href="#">
+                            <img src="../images/n.jpg">
+                            <span>寿光灾民安全返家</span>
+                        </a>
+                    </li>
+                        <li class="fl">
+                            <a href="#">
+                                <img src="../images/n.jpg">
+                                <span>他上清华一家8口送</span>
+                            </a>
+                        </li>
+                        <li class="fl">
+                            <a href="#">
+                                <img src="../images/n.jpg">
+                                <span>苏炳添破纪录夺冠</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="news">
+                        <li>
+                            <i class="icon1"></i>
+                            <img src="../images/photoNewsLeft2.gif">
+                            <a>白宫降半旗致哀麦凯恩 八一飞行表演队赴俄参演</a>
+                        </li>
+                        <li>
+                            <i class="icon1"></i>
+                            <img src="../images/photoNewsLeft2.gif">
+                            <a>百岁老人四世同堂 千人贺寿 他赊账买彩票中556万</a>
+                        </li>
+                        <li>
+                            <i class="icon1"></i>
+                            <img src="../images/photoNewsLeft2.gif">
+                            <a>女孩拍写真遭摄影师猥亵 少林绝壁现“功夫瑜伽”</a>
+                        </li>
+                        <li>
+                            <i class="icon1"></i>
+                            <img src="../images/photoNewsLeft2.gif">
+                            <a>蔡依林穿烂毛衣秀腹肌 姚晨置身水中宛如出水“芙</a>
+                        </li>
+                    </ul>
+                </div>
+                 <div class="three">
+                    <ul class="columnPic">
+                    <li class="fl">
+                        <a href="#">
+                            <img src="../images/C.jpg">
+                            <span>寿光灾民安全返家</span>
+                        </a>
+                    </li>
+                        <li class="fl">
+                            <a href="#">
+                                <img src="../images/C.jpg">
+                                <span>他上清华一家8口送</span>
+                            </a>
+                        </li>
+                        <li class="fl">
+                            <a href="#">
+                                <img src="../images/C.jpg">
+                                <span>苏炳添破纪录夺冠</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="news">
+                        <li>
+                            <i class="icon1"></i>
+                            <img src="../images/photoNewsLeft2.gif">
+                            <a>白宫降半旗致哀麦凯恩 八一飞行表演队赴俄参演</a>
+                        </li>
+                        <li>
+                            <i class="icon1"></i>
+                            <img src="../images/photoNewsLeft2.gif">
+                            <a>百岁老人四世同堂 千人贺寿 他赊账买彩票中556万</a>
+                        </li>
+                        <li>
+                            <i class="icon1"></i>
+                            <img src="../images/photoNewsLeft2.gif">
+                            <a>女孩拍写真遭摄影师猥亵 少林绝壁现“功夫瑜伽”</a>
+                        </li>
+                        <li>
+                            <i class="icon1"></i>
+                            <img src="../images/photoNewsLeft2.gif">
+                            <a>蔡依林穿烂毛衣秀腹肌 姚晨置身水中宛如出水“芙</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+         </section>
+</body>
+<script>
+let navs = document.querySelectorAll(".columnTop a");
+let cons = document.querySelectorAll(".cons div");
+for(let i = 0; i < navs.length; i++){
+    navs[i].index = i;
+    navs[i].onmouseover = function(){
+        for(let i = 0; i < navs.length; i++){
+            navs[i].className = "";
+            cons[i].className = "";
+        }
+        this.className = "active";
+        cons[this.index].className = "show";
+    };
+}   
+
+</script>
+</html>

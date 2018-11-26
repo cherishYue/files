@@ -1,0 +1,42 @@
+/*css reset*/
+body,h1,h2,p{
+    margin:0;
+}
+body{
+    font-family: "宋体",Arial;
+    font-size:14px;
+    min-width: 1000px;
+    color:#122e67;
+}
+hr{
+    margin: 0;
+    border: none;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+em{
+    font-style: normal;
+}
+
+.clear:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}

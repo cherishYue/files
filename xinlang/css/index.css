@@ -1,0 +1,1220 @@
+.wrap{
+    width: 1000px;
+    margin:0 auto;
+}
+
+hr{
+    height:3px;
+    background: #ff8500;
+}
+a:hover{
+    color:#ff8500;
+    /* text-decoration: underline; */
+}
+/* -------------------------这里是头部区域----------------------------- */
+.header{
+    height:41px;
+    background: #fcfcfc;
+    border-bottom: 1px solid #edeef0;
+}
+.header .headerMain{
+    height: 41px;
+    /*background: #f1b0b7;*/
+}
+
+.headerMain .mainLeft{
+    font-size:0;
+   
+}
+.headerMain .mainLeft span,.mainRight span{
+    display: inline-block;
+    font:12px/41px "Arial";
+    color:#4c4c4c;
+    padding-right: 28px;
+   
+}
+.mainLeft span:nth-of-type(1){
+    padding-left:16px;
+}
+.mainLeft span i,.mainRight span i{
+    display: inline-block;
+    width: 10px;
+    height:5px;
+    background: url("../images/icon.png") no-repeat 0 -355px;
+    margin-left:8px;
+}
+.headerMain span:hover {
+    background: #cacaca;
+}
+.mainLeft #hoverMenu{
+    display: inline-block; 
+    position: relative;
+}
+.mainLeft .botMenu{
+    border:1px solid #f60;
+    width:100px;
+    position: absolute;
+   
+    
+    background: #fff;
+   
+}
+.hide{
+    display:none !important;
+}
+.show{
+    display:block;
+
+}
+.active{
+    background:#f4b34b !important;
+    color:#fff !important;
+}
+.mainLeft .botMenu li{
+    width:100px;
+    height:30px;
+    font:12px/30px "Arial";
+    color:#4c4c4c;
+    text-align: center;
+    border-bottom:1px solid #f60;
+
+}
+.mainLeft .botMenu li:nth-last-child(1){
+    border-bottom:none;
+}
+/*-----------------------------头部结束------------------------------*/
+/*-----------------------------这里是上面导航------------------------------*/
+.nav{
+    height:172px;
+    /*background: #f1b0b7;*/
+}
+.nav .navMain{
+    height:173px;
+
+}
+.nav .navMain .mainTop{
+    height:64px;
+
+}
+.navMain .mainTop .logo{
+    padding: 16px 23px 0 20px;
+}
+.navMain .mainTop .search{
+    width:333px;
+    height: 33px;
+    border: 1px solid #c1c1c1;
+    margin-top:24px;
+    border-radius: 3px 0 0 3px ;
+}
+.navMain .mainTop .search span{
+    display: inline-block;
+    font:14px/33px "宋体";
+    color:#666666;
+    padding-left:15px;
+}
+.navMain .mainTop .search span i{
+    display: inline-block;
+    width: 10px;
+    height:5px;
+    background: url("../images/icon.png") no-repeat 0 -355px;
+    margin:0 7px 0 14px;
+}
+.navMain .mainTop .search input{
+    height:26px;
+    width: 238px;
+    border:1px solid transparent;
+    border-left:1px solid #c1c1c1;
+    padding-left:11px;
+    outline: none;
+}
+.navMain .mainTop .lycos{
+    width:66px;
+    height:35px;
+    background: url("../images/bg2.png") no-repeat;
+    margin-top:24px;
+}
+.navMain .mainTop .weather{
+    height:33px;
+    margin-top:24px;
+    font:14px/33px "宋体";
+    color:#666666;
+    margin-left: 22px;
+    background: url("../images/w_07_25_00.png") no-repeat 32px 0;
+
+}
+.navMain .mainTop .weather .du{
+    margin-left: 44px;
+}
+.navMain .mainTop .pic{
+    padding-top:15px;
+}
+/*----------------------------------导航--------------------------------------------------*/
+.nav .mainBottom{
+    height:88px;
+}
+.nav .mainBottom li{
+    width:180px;
+    border-right:1px solid #f1e5c5;
+    margin-top:12px ;
+    float: left;
+    font-size: 0;
+}
+.nav .mainBottom li strong{
+    font-family: "微软雅黑";
+}
+.nav .mainBottom li span{
+    display: inline-block;
+    font:12px/26px "宋体";
+    color:#000;
+    width:26px;
+    padding-left:16px;
+    text-align: center;
+}
+.nav .mainBottom li span:hover{
+    color: #e66100;
+    text-decoration: underline;
+}
+.nav .mainBottom  .two{
+    width:195px;
+}
+.nav .mainBottom  .two span{
+    width:36px;
+    padding-left:8px;
+}
+.nav .mainBottom .more{
+    width:26px;
+    border-right:none;
+
+}
+.nav .mainBottom .more .duo{
+    width:36px;
+}
+.nav .mainBottom .more i{
+    display: inline-block;
+    width: 10px;
+    height:5px;
+    background: url("../images/icon.png") no-repeat 0 -355px;
+    /*margin:0 7px 0 14px;*/
+}
+/*-----------------------------导航结束-------------------------*/
+/*-----------------------------content-------------------------*/
+.content .contentLeft{
+    width:240px;
+    height:100%;
+    /*background: #f1ffd4;*/
+
+}
+/*-------------------------左一banner---------------------------*/
+.content .contentLeft .banner{
+    height:350px;
+    position: relative;
+
+}
+.contentLeft .banner span{
+    display: inline-block;
+    height:36px;
+    background: rgba(255, 255, 255,0.5);
+    position: absolute;
+    bottom: 0;
+    font:12px/36px "宋体";
+    color:#333333;
+    width: 100%;
+    text-align: center;
+}
+/*-----------------------左二产品---------------------------------*/
+.content .contentLeft .produce{
+    height:241px;
+    border:1px solid #d9e0ee;
+    border-top:none;
+    margin:25px 0 25px 0;
+
+}
+.contentLeft .produce .produceTop{
+    height:35px;
+    border-top:3px solid #ff8400;
+    border-bottom:1px solid #d9e0ee;
+
+}
+.contentLeft .produce .produceTop p{
+    font:16px/35px "微软雅黑";
+    color:#000;
+    display: inline-block;
+    text-indent: 11px;
+}
+.contentLeft .produce .produceTop .icon{
+    margin-top:9px;
+    width: 45px;
+    height:20px;
+    background:url("../images/bg2.png") no-repeat -146px -553px;
+
+}
+.contentLeft .produce .producebottom{
+    height:204px;
+}
+/*-------------------------左三淘宝---------------------------*/
+.contentLeft .taobao{
+    height:237px;
+    border:1px solid #d9e0ee;
+    margin-bottom:26px;
+}
+.contentLeft .taobao .taobaoTop{
+    height:37px;
+    border-bottom:1px solid #d9e0ee;
+    font-size: 0;
+}
+
+.contentLeft .taobao .taobaoTop span{
+    font:16px/36px "微软雅黑";
+    display: inline-block;
+    color:#666;
+    width:58px;
+    text-align: center;
+    border-left:1px solid #d9e0ee;
+    padding-left:-1px;
+
+}
+.contentLeft .taobao .taobaoBottom{
+    border-left:1px solid #d9e0ee;
+    padding:1px;
+    height: 195px;
+    position: relative;
+}
+.contentLeft .taobao .taobaoBottom .sale{
+    display: block;
+    font-size: 0;
+    height:46px;
+    background: rgba(255, 255,255,0.6);
+    position: absolute;
+    bottom: 0;
+    color:#333333;
+    width: 100%;
+   text-indent: 5px;
+
+}
+.contentLeft .taobao .taobaoBottom .sale span{
+    display: block;
+    font:12px/24px "宋体";
+
+}
+.contentLeft .taobao .taobaoBottom .sale em{
+    color:#fa7d51;
+    /*padding-right:82px;*/
+}
+.contentLeft .taobao .taobaoBottom .sale img{
+    padding: 0 68px 0 6px;
+}
+/*-------------------------左四体育--------------------------*/
+.contentLeft .sport{
+    height:223px;
+    border:1px solid #d9e0ee;
+    border-top:3px solid #ff8400;
+}
+.contentLeft .sport .sportTop{
+    height: 35px;
+    border-bottom:1px solid #d9e0ee;
+
+
+}
+.contentLeft .sport .sportTop span{
+    font:16px/36px "微软雅黑";
+    display: inline-block;
+    color:#666;
+}
+.contentLeft .sport .sportTop .only{
+    text-indent: 9px;
+}
+.contentLeft .sport .sportTop .more{
+    width: 53px;
+    border-left:1px solid #d9e0ee ;
+    text-align: center;
+    background: #f6f6f6;
+    font:14px/36px "宋体";
+}
+
+.sport .contentTop{
+    height:96px;
+    padding:10px 0 0 8px;
+}
+.sport .contentTop a{
+    height:90px;
+    width:105px;
+    position: relative;
+    display: inline-block;
+
+}
+.sport .contentTop a span{
+    height:20px;
+    font:12px/20px "宋体";
+    display: inline-block;
+    color:#ffffff;
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+
+}
+.sport .contentTop li,.contentBottom li{
+    width:119px;
+    height:24px;
+    font:12px/24px "宋体";
+    color:#666666;
+    position:relative;
+}
+.contentBottom li{
+    width: 100%;
+}
+.sport .contentTop li span,.contentBottom li span{
+    text-indent: 5px;
+    display: inline-block;
+}
+.sport .contentTop li i,.contentBottom li i,.like .mainNews li i{
+    width:3px;
+    height:3px;
+    display: inline-block;
+    background:url("../images/icon.png") no-repeat 0 -297px;
+    /*margin-top: -6px;*/
+    position: absolute;
+    top:10px;
+}
+/*-------------------------左五京东广告--------------------------*/
+.contentLeft .jingdong{
+    height:198px;
+    border:1px solid #e31d1a;
+    margin-top:6px;
+}
+/*-------------------------中间第一部分--------------------------*/
+.content .contentMiddle{
+    width:361px;
+    /*background: #f0cdb9;*/
+    margin-left:18px;
+}
+.contentMiddle .column{
+    height:282px;
+}
+.contentMiddle .column .columnTop,.video .videoTop,.sport .sportTop {
+    height:36px;
+    background: #f9f9f9;
+    border: 1px solid #dbdee1;
+
+
+}
+.column .columnTop a,.video .videoTop a,.sport .sportTop a{
+    display: inline-block;
+    font:16px/32px "微软雅黑";
+    color:#000;
+    width:57px;
+    text-align: center;
+    border-right:1px solid transparent;
+    border-left:1px solid transparent;
+    border-bottom:2px solid transparent;
+    border-top: 3px solid transparent;
+    margin-top: -1px;
+    margin-left: -1px;
+
+
+
+}
+.column .columnTop a:hover,.video .videoTop a:hover,.sport .sportTop a:hover{
+    color:#e66100;
+    border-top: 3px solid #e66100;
+    margin-top: -1px;
+    border-left:1px solid #dbdee1;
+    border-right:1px solid #dbdee1;
+    /* border-bottom:2px solid #fff; */
+   
+
+}
+.column .columnPic{
+    height: 90px;
+    padding-top:26px;
+    margin-bottom:8px;
+}
+.column .columnPic li{
+    padding-right: 21px;
+}
+.column .columnPic li:last-child{
+    padding-right:0;
+}
+.column .columnPic a{
+    display: inline-block;
+    width: 105px;
+    height:90px;
+    /*position: relative;*/
+    font-size: 0;
+}
+.column .columnPic a img{
+    height: 70px;
+    width:105px;
+}
+.column .columnPic li span{
+    display: inline-block;
+    height:20px;
+    width:100%;
+    font: 12px/20px "宋体";
+    color:#fff;
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+.column .news{
+    height:122px;
+    /*background: #f0a238;*/
+}
+.column .news li{
+    height:26px;
+    position: relative;
+
+}
+.column .news li i{
+    display: inline-block;
+}
+.column .news li .icon1{
+    width:3px;
+    height:3px;
+    background:url("../images/icon.png") no-repeat 0 -297px;
+    position: absolute;
+    top:6px;
+
+}
+.column .news li img{
+    padding-top: 2px;
+    padding-left: 8px;
+}
+/*-----------------------------中间第二部分，视频-----------------------------*/
+.contentMiddle .video{
+    height:273px;
+}
+.contentMiddle .video .videoLeft {
+    width:106px;
+
+}
+.contentMiddle .video .videoLeft li{
+    width:105px;
+    height:90px;
+    position: relative;
+    padding-top:15px;
+}
+.contentMiddle .video .videoLeft span,.sport .mainTop .pic span{
+    display: inline-block;
+    height:20px;
+    width:105px;
+    font: 12px/20px "宋体";
+    color:#fff;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+.video .clear .videoRight{
+    width:250px;
+    /*height:238px;*/
+    /*background: #f1b0b7;*/
+    margin-top:10px;
+}
+.video .clear .videoRight li{
+    position: relative;
+    width:250px;
+    font-size: 0;
+}
+.video .clear .videoRight li .icon1,.sport .mainTop .rightNews li .icon1{
+    width:3px;
+    height:3px;
+    background:url("../images/icon.png") no-repeat 0 -297px;
+    position: absolute;
+    top:11px;
+    display: inline-block;
+}
+.video .clear .videoRight li .icon2{
+    width:16px;
+    height:9px;
+    background:url("../images/icon.png") no-repeat 0 -394px;
+    position: absolute;
+    top:8px;
+    display: inline-block;
+    margin: 0 5px 0 5px;
+}
+.video .clear .videoRight li span,.sport .mainTop .rightNews li span{
+    width:209px;
+    text-indent: 26px;
+    font: 14px/26px "宋体";
+    color:#122e67;
+    display: inline-block;
+
+}
+/*---------------中间第三个喜欢——----------------*/
+.contentMiddle .like{
+    height:353px;
+}
+.contentMiddle .like .liketop{
+    height: 34px;
+    background: #f8f8f8;
+    border:1px solid #dbdee1;
+}
+.like .liketop .guess{
+    width:213px;
+    height:32px;
+    background: #fff;
+    border-top:3px solid #ff8400;
+    border-right:1px solid #dbdee1;
+    font:16px/32px "宋体";
+    color: #000;
+    text-indent: 5px;
+    position: relative;
+}
+.like .liketop .guess span:nth-of-type(2){
+    width:45px;
+    height: 21px;
+    display: inline-block;
+    background:url("../images/bg2.png")no-repeat -145px -553px;
+    position: absolute;
+    top:7px;
+    left:76px;
+}
+.like .mainNews{
+    margin-top:10px;
+}
+.like .mainNews li,.sport .main li{
+    font:14px/26px "宋体";
+    position: relative;
+}
+.like .mainNews li span,.sport .main li span{
+
+    display: inline-block;
+    padding-left:10px;
+
+}
+.like .mainNews li a,.sport .main li a{
+    display: block;
+}
+.like .mainNews .line{
+    border-bottom:1px solid #dbdee1;
+
+}
+
+    .like .mainNews .last{
+    color:#596a7b;
+    }
+/*---------------中间第四个体育视频——----------------*/
+.contentMiddle .sport {
+    /*height: 407px;*/
+    /*border-top:1px solid #dbdee1;*/
+    border-bottom:1px solid #dbdee1;
+
+}
+.contentMiddle .sport .sportTop .ti{
+    width: 100px;
+
+}
+.sport .sportNav{
+    font-size: 0;
+}
+.sport .sportNav a{
+    display: inline-block;
+    font: 12px/29px "宋体";
+    color:#7a7a7a;
+    padding-right:6px;
+}
+.sport .mainTop .pic {
+    width:105px;
+    height:90px;
+    position: relative;
+    padding-top: 6px;
+}
+.sport .mainTop img{
+    width:105px;
+    height:70px;
+}
+.sport .mainTop .rightNews{
+    display: inline-block;
+    height:104px;
+    margin-left:5px;
+
+
+}
+.sport .mainTop .rightNews li{
+    position: relative;
+
+}
+.sport .mainTop .rightNews li span{
+    width: 250px;
+    text-indent:15px;
+}
+.sport .mainTop .rightNews li .icon1{
+    position: absolute;
+    left:6px;
+}
+.sport .main li a{
+    display: inline-block;
+}
+
+.sport .main li .icon1{
+    width:3px;
+    height:3px;
+    background:url("../images/icon.png") no-repeat 0 -297px;
+    position: absolute;
+    top:11px;
+    display: inline-block;
+}
+.sport .main .lastli{
+    color:#596a7b;
+}
+.sport .main li em{
+    color:#333333;
+    font-style: normal;
+}
+/*-------------------------------中间第四部分完-------------------------*/
+/**-------------------------------右一-------------------------*!*/
+.contentRight{
+    width:362px;
+    /*background: #1fb24e;*/
+}
+.contentRight .like{
+    height:910px;
+
+}
+.like .liketop{
+    height:35px;
+    background: #f7f7f7;
+}
+.like .liketop .xin {
+    width:56px;
+
+}
+.like .liketop time{
+    display: inline-block;
+    padding-top:10px;
+    padding-right:15px;
+}
+.like .mainNews .kong{
+    margin-bottom:18px;
+ }
+.like .mainNews strong{
+    color:#e66100;
+    font-weight: normal;
+}
+/*-------------------------------右二------------------------*/
+.sport .sportTop .shi{
+
+    width:100px;
+}
+.sport .maincon{
+    height: 210px;
+    /*margin-bottom:4px;*/
+}
+.sport .maincon .picleft .pic1{
+    height:90px;
+    width: 105px;
+    position: relative;
+    padding-top:5px;
+    margin-bottom:5px;
+
+}
+.sport .maincon .picleft .pic1 span{
+    display: inline-block;
+    height:20px;
+    width:105px;
+    font: 12px/20px "宋体";
+    color:#fff;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+/*---------------------------------------第一部分内容结束---------------------------------------*/
+.bannerOne{
+    padding:25px 0  25px 0;
+}
+
+/*---------------------------------------广告结束--------------------------------------*/
+/*---------------------------------------第二部分大内容--------------------左-----------------*/
+.contentTwo .ctwoLeft{
+    width:240px;
+
+}
+ .bannerTop{
+    /*height:181px;*/
+    border:1px solid #d9e0ee;
+    border-top:3px solid #ff8400;
+    padding:10px;
+    position: relative;
+    margin-bottom:10px;
+}
+ .bannerTop span{
+    height:30px;
+    width:220px;
+    background: #000;
+    display: inline-block;
+    font:12px/30px "宋体";
+    color:#fff;
+    position: absolute;
+    bottom:0;
+    text-align: center;
+
+}
+/*---------------------------------------第二部分大内容--------------------中----------------*/
+.contentTwo .ctwoMiddle{
+    width:361px;
+    padding-left:18px;
+
+}
+.contentTwo .ctwoMiddle .sport .sportTop .happy{
+    width:100px;
+}
+/*---------------------------------------广告---------我爱看图-------------------------*/
+.bannerTwo{
+    height:267px;
+    margin-top: 24px;
+
+}
+.bannerTwo .title{
+    height:35px;
+    border: 1px solid #dbdee1;
+    font:16px/35px "微软雅黑";
+    color:#000;
+    background: #f8f8f8;
+
+}
+.bannerTwo .title span{
+    width:88px;
+    display: inline-block;
+    text-align: center;
+}
+.bannerTwo .pic li{
+    width:198px;
+    height:162px;
+    position: relative;
+    padding-right:2px;
+}
+.bannerTwo .pic li span{
+    height:30px;
+    width:198px;
+    background: #000;
+    display: inline-block;
+    font:12px/30px "宋体";
+    color:#fff;
+    position: absolute;
+    bottom:0;
+    text-align: center;
+}
+/*---------------------------------------第三部分大内容--------------------左----------------*/
+.cthreeLeft{
+    width:240px;
+}
+ .blog{
+    height:212px;
+    border: 1px solid #dbdee1;
+    border-top:3px solid #ff8400;
+
+}
+ .blog .top{
+    height:35px;
+    border-bottom:1px solid #dbdee1;
+    font:16px/35px "微软雅黑";
+    color:#000;
+}
+ .blog .top span{
+    padding-left: 12px;
+}
+ .blog .bottom .scence{
+    padding:8px 10px;
+    position: relative;
+    width: 108px;
+}
+.blog .bottom .scence .i{
+    width:11px;
+    height:26px;
+    background:url("../images/arr.png") no-repeat;
+    position: absolute;
+    top:50px;
+
+}
+.blog .bottom .scence .jing{
+    height:108px;
+    width:180px;
+    position: relative;
+    padding-left: 13px;
+}
+.blog .bottom .scence .jing span{
+    height:21px;
+    font:12px/21px "宋体";
+    color:#fff;
+    width:180px;
+    background: #000;
+    display: inline-block;
+    position: absolute;
+    bottom:0;
+    text-align: center;
+
+}
+.blog .bottom .scence .ii{
+    width:11px;
+    height:26px;
+    background:url("../images/arr.png") no-repeat -20px 0;
+    position: absolute;
+    top:50px;
+    right:-90px;
+
+}
+.blog .bottom p,.qu p{
+    font:12px/24px "宋体";
+    color:#666;
+    text-indent: 19px;
+    position: relative;
+}
+.blog .bottom p i,.qu p i{
+    width:3px;
+    height:3px;
+    display: inline-block;
+    background:url("../images/icon.png") no-repeat 0 -297px;
+    position: absolute;
+    top:10px;
+    left:8px;
+}
+.cthreeLeft .room{
+    margin-top:5px;
+}
+/*---------------------------------------第三部分大内容--------------------中----------------*/
+
+.cthreeMiddle{
+    width:361px;
+    padding-left:18px;
+}
+/*---------------------------------广告-----------------------------------------*/
+.bannerThree{
+    padding-top:25px;
+}
+/*---------------------------------------第四部分大内容--------------------左----------------*/
+.contentfour .cfourLeft,.cfiveLeft,.csixLeft,.csevenLeft {
+    width:240px;
+
+}
+ .qu{
+    height: 298px;
+    margin-bottom: 4px;
+    margin-top:25px;
+} .qu .middle .dong{
+    width: 218px;
+    height:160px;
+    padding: 6px 8px;
+}
+.qu .middle{
+    height:196px;
+    border-bottom: 1px solid #d9e0ee;
+}
+.cfourLeft .xiang{
+    padding:10px 0 21px 0;
+
+}
+.cfourLeft .history{
+    height:158px;
+    border-bottom: 1px solid #d9e0ee;
+}
+/*---------------------------------------第四部分大内容--------------------中----------------*/
+.cfourMiddle ,.cfiveMiddle,.csixMiddle,.csevenMiddle{
+    width: 361px;
+    padding-left: 18px;
+}
+.cfourMiddle{
+    padding-top: 25px;
+}
+.sport .word{
+    font-size:0 ;
+    border:1px solid #d9e0ee;
+    margin-top:12px;
+    background: #f7f7f7;
+}
+.sport .word a{
+    display: inline-block;
+    padding: 0 15px 0 15px;
+    border-right:1px solid #d9e0ee;
+    font:14px/34px "宋体";
+    color:#596a7b;
+}
+.sport .word a:nth-last-child(1){
+    border-right: 0;
+}
+.sport .add{
+    padding-top:20px;
+}
+
+/**---------------------------------------第四部分大内容--------------------右----------------*!*/
+.cfourRight,.csixRight{
+    padding-top: 25px;
+}
+.culture{
+    margin-top:15px;
+}
+
+/*---------------------------------广告-----------------------------------------*/
+.bannerFour{
+    padding-bottom:25px;
+}
+/*---------------------------------------第五部分大内容-------------------左----------------*/
+.cfiveLeft .hot{
+    margin-top:30px;
+    height:285px;
+}
+.cfiveLeft .wang{
+    height:389px;
+    border-top:3px solid #ff8400;
+    padding-top:9px;
+    margin-top:25px;
+}
+.japan{
+    height:158px;
+}
+.eye{
+    padding-top:9px;
+}
+/*---------------------------------------第五部分大内容-------------------中----------------*/
+.list{
+    margin-top:25px;
+
+}
+.japan{
+    height:158px;
+}
+.fashion{
+    padding-right:23px;
+}
+/*---------------------------------广告-----------------------------------------*/
+.bannerFive {
+    padding-top :25px;
+}
+/*---------------------------------------第六部分大内容-------------------左----------------*/
+.point{
+    height:345px;
+}
+.qu .buy{
+    height:166px;
+    border-bottom: none;
+    /*padding:7px 0 0 22px;*/
+
+}
+/*---------------------------------------第七部分大内容-------------------左----------------*/
+.fo img{
+    padding:7px 2px 12px 23px;
+}
+
+
+
+/*---------------------------------------第八部分大内容--------------------------------*/
+.contentEight{
+    width: 1000px;
+    padding-top: 20px;
+    height:225px;
+}
+.freshTop{
+    height:34px;
+    background: #f7f7f7;
+    border: 1px solid #dbdee1;
+
+}
+.freshBottom{
+    padding:26px 0 23px 0;
+}
+.freshTop span{
+    display: inline-block;
+    border-top: 3px solid #ff8400;
+    margin-top:-1px;
+    width:120px;
+    border-right:1px solid #dbdee1;
+    text-align: center;
+    font:16px/34px "微软雅黑";
+    color:#000;
+}
+.freshBottom .baigong{
+    width:326px;
+    height:163px;
+    position: relative;
+}
+.freshBottom .baigong img{
+    width:326px;
+    height:163px
+}
+
+.freshBottom .baigong span{
+    display: inline-block;
+    font:12px/30px "宋体";
+    color: #fff;
+    width:100%;
+    background:rgba(0,0,0,0.6);
+    position: absolute;
+    bottom:0;
+    text-align: center;
+
+}
+.freshBottom li{
+    padding-left:12px;
+    padding-bottom:6px;
+    width: 210px;
+    height:78px;
+
+}
+.freshBottom ul{
+    width:666px;
+    height:163px;
+}
+
+.freshBottom li img{
+    width:105px;
+    height:78px;
+    margin-right:9px;
+}
+.freshBottom li span{
+    font:12px/20px "宋体";
+    color:#122e67;
+}
+/*---------------------------------------第九部分大内容--------------------------------*/
+
+.contentNine{
+    height:88px;
+    border:1px solid #e9e9e9;
+    margin-top:23px;
+}
+.cnineTop{
+    height:54px;
+    border-bottom:1px solid #e9e9e9 ;
+    font-size: 0;
+}
+.cnineTop .city{
+    font:16px/54px "宋体";
+    color:#f4b34b;
+    background: #fffcf1;
+    width:120px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+.cnineTop .place{
+    display: inline-block;
+    padding-left:35px;
+}
+.cnineTop .place p{
+    font-size: 0;
+    height:21px;
+
+}
+.cnineTop .place p:nth-of-type(1){
+    margin-top:6px;
+}
+.cnineTop .place p:nth-last-child(1){
+    margin-bottom:6px;
+}
+.place p span,.cnineBottom span{
+    font:12px/21px "宋体";
+    color: #596976 ;
+    padding-right:12px;
+}
+.cnineBottom{
+    font-size: 0;
+}
+.cnineBottom .life{
+    font:16px/33px "宋体";
+    color:#f4b34b;
+    background: #fffcf1;
+    width:120px;
+    text-align: center;
+    display: inline-block;
+}
+.cnineBottom p{
+    display: inline-block;
+    padding-left:35px;
+
+}
+/*-----------------------------------广告----------------------------*/
+.bannerSix{
+    padding:26px 0 25px 0;
+}
+/*---------------------------------------第九部分大内容--------------------------------*/
+.choose{
+    padding-top:25px;
+    height:228px;
+}
+
+.choose li{
+    height:183px;
+    width:326px;
+    padding-right:10px;
+}
+.choose li a{
+    width:326px;
+    display: inline-block;
+    font:16px/45px "宋体";
+    color:#333;
+    text-align: center;
+}
+.choose li:nth-last-child(1){
+    padding-right:0;
+}
+
+/*------------------------------------最后一个广告--------------------*/
+.lastbanner{
+    height:100px;
+    padding:17px 0 20px 0;
+    /*background: skyblue;*/
+    font-size: 0;
+
+}
+.lastbanner img{
+    padding-right:44px;
+}
+.lastbanner img:nth-last-child(1){
+    padding-right:0;
+}
+    /*----------------------------页脚-------------------------------------*/
+.footerMain{
+    height: 272px;
+}
+.footerMain .footerTop{
+    height:34px;
+    background: #f7f7f7;
+    font-size: 0;
+    text-align: center;
+
+}
+.footerMain .footerTop span{
+    display: inline-block;
+    font:12px "宋体";
+    color:#75839d;
+    border-right: 1px dotted #c5c5c5;
+    padding:0 12px 0 12px;
+    margin-top: 10px;
+
+}
+.footerMain .footerTop span:nth-last-child(1){
+    border-right: none;
+}
+.footerMain p{
+    text-align: center;
+    color: #939393;
+    font:12px/20px "宋体";
+
+}
+.footerMain .time{
+    margin: 10px 0 10px 0;
+}
+.footerMain .picture{
+    font-size: 0;
+    height:48px;
+    padding-top: 10px;
+    padding-bottom:8px;
+
+}
+.footerMain .picture img{
+    padding-right:1px;
+}
+.footerMain .picture img:nth-last-child(1){
+    padding-right: 0;
+}
+.footerMain .protect span{
+    display: inline-block;
+
+}
+.footerMain .mail{
+    padding-bottom:20px;
+}
